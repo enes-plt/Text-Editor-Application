@@ -61,7 +61,7 @@ public class TextEditor extends JFrame implements ActionListener {
 
 
 
-        //----------------menubar setrup--------------
+        //----------------Menubar setup--------------
         menuBar = new JMenuBar();
         fileMenu = new JMenu("File");
         openItem = new JMenuItem("Open");
@@ -75,7 +75,7 @@ public class TextEditor extends JFrame implements ActionListener {
         fileMenu.add(exitItem);
         menuBar.add(fileMenu);
 
-        //----------------menubar setrup--------------
+        //----------------Menubar setup--------------
 
         // Adding components to frame
         this.setJMenuBar(menuBar);
